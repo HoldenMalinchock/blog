@@ -12,7 +12,7 @@ blog({
   avatarClass: "rounded-full",
   author: "Holden Malinchock",
   links: [
-    { title: "Email", url: "mailto:ry@tinyclouds.org" },
+    { title: "Email", url: "mailto:digits_jigs.07@icloud.com" },
     { title: "GitHub", url: "https://github.com/HoldenMalinchock" },
   ],
 
