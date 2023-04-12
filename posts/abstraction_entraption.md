@@ -9,7 +9,7 @@ However, abstraction has trade-offs, large ones, that are never considered. It l
 
 Software engineers need to drop some of the ego, stop whiteboarding and just solve the problem. Not everything is the moon landing. Coding requires iteration, this is why no file is ever complete. By starting with the most abstracted and bulletproof solution for the off chance we might reuse this code in the future just makes iteration harder and harder.
 
-I believe this stems from OOP infecting the ecosystem and problems are seen throught the light of maximum abstraction at all costs.
+I believe the obsession with premature abstraction stems from OOP infecting the ecosystem and problems are seen throught the light of maximum abstraction at all costs.
 
 Abstraction should come from refactoring and code iteration, abstracting too quickly and before you need to leads to unre-factorable code and special cases as requirements change.
 
