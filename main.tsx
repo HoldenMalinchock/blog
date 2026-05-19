@@ -1,6 +1,6 @@
 /** @jsx h */
 
-import blog, { ga, redirects, h } from "https://deno.land/x/blog/blog.tsx";
+import blog, { ga, redirects, h } from "blog";
 
 blog({
   title: "Holden Malinchock's Blog",

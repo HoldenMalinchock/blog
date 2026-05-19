@@ -3,9 +3,11 @@
   "packages": {
     "specifiers": {
       "jsr:@deno/gfm": "jsr:@deno/gfm@0.12.0",
+      "jsr:@deno/gfm@0.10.0": "jsr:@deno/gfm@0.10.0",
       "jsr:@deno/gfm@^0.10.0": "jsr:@deno/gfm@0.10.0",
       "jsr:@denosaurs/emoji@^0.3": "jsr:@denosaurs/emoji@0.3.1",
       "jsr:@denosaurs/emoji@^0.3.1": "jsr:@denosaurs/emoji@0.3.1",
+      "npm:@types/node": "npm:@types/node@18.16.19",
       "npm:github-slugger@^2.0": "npm:github-slugger@2.0.0",
       "npm:he@^1.2": "npm:he@1.2.0",
       "npm:katex@^0.16": "npm:katex@0.16.27",
@@ -58,6 +60,10 @@
       }
     },
     "npm": {
+      "@types/node@18.16.19": {
+        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
+        "dependencies": {}
+      },
       "commander@8.3.0": {
         "integrity": "sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==",
         "dependencies": {}
@@ -519,6 +525,9 @@
     "https://esm.sh/sax@1.6.0?target=denonext": "90edf8aea409972a7be1a323331a9c428e1db378e21354058bf2e67cf00fd405",
     "https://esm.sh/xml-js@1.6.11/denonext/xml-js.mjs": "e1863b42f0016edd5321d08aae2e92f6f856027ed813d5825a413fbbc0dfb875",
     "https://esm.sh/xml-js@1.6.11?target=denonext": "9f30bf1857f9da9c902c290b59f6b399c973d3dc7e35f11c5db2502aad733f63",
+    "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/blog.tsx": "487ab3787a36768fda85c041e2fa797c096e9ab567140c754543d63a55258e42",
+    "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/components.tsx": "3a51e21963ca926675e18a8fdb6a999e451997fd5bc359c03f7d7759411d8dfa",
+    "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/deps.ts": "c604dd6201bce583cae45b57c6e0eb44238d89eee9fea923b9e79f7bb9135e78",
     "https://raw.githubusercontent.com/kt3k/callsites/v1.0.0/mod.ts": "a5fdfa7916d03459fd4830ca526d493d5f4ce0ea91619905d524c9a3a5c3cd15"
   },
   "workspace": {
