@@ -1,10 +1,16 @@
 {
   "tasks": {
-    "dev": "deno run --allow-net --allow-read --allow-env --watch main.tsx --reload --dev",
-    "serve": "deno run --allow-net --allow-read --allow-env --no-check main.tsx",
+    "start": "deno run --allow-net --allow-read --allow-env main.tsx",
+    "dev": "deno run --allow-net --allow-read --allow-env --watch main.tsx",
+    "serve": "deno run --allow-net --allow-read --allow-env main.tsx",
   },
   "imports": {
     "blog": "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/blog.tsx",
     "https://deno.land/x/gfm@0.2.5/mod.ts": "jsr:@deno/gfm@^0.10.0",
   },
+  "deploy": {
+    "org": "hmalinch",
+    "app": "holden-blog"
+  },
 }
+

@@ -1,6 +1,0 @@
-{
-  "imports": {
-    "blog": "https://deno.land/x/blog@0.7.0/blog.tsx",
-    "https://deno.land/x/gfm@0.2.5/mod.ts": "jsr:@deno/gfm"
-  }
-}
