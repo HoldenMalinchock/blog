@@ -1,14 +1,8 @@
 /** @jsx h */
 
-import { configureBlog, createBlogHandler, h } from "blog";
-import { ColorScheme, html, UnoCSS } from "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/deps.ts";
+import blog, { ga, redirects, h } from "blog";
 
-html.use(UnoCSS());
-html.use(ColorScheme("auto"));
-
-const IS_DEV = Deno.args.includes("--dev") && "watchFs" in Deno;
-
-const state = await configureBlog(import.meta.url, IS_DEV, {
+blog({
   title: "Holden Malinchock's Blog",
   description: "Thoughts and opinions are my own.",
   // header: <header>Your custom header</header>,
@@ -35,5 +29,3 @@ const state = await configureBlog(import.meta.url, IS_DEV, {
 
   // ]
 });
-
-Deno.serve(createBlogHandler(state) as Deno.ServeHandler);

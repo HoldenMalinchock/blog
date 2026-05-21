@@ -5,7 +5,7 @@
     "serve": "deno run --allow-net --allow-read --allow-env main.tsx",
   },
   "imports": {
-    "blog": "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/blog.tsx",
+    "blog": "https://raw.githubusercontent.com/HoldenMalinchock/deno_blog/59d4ae80d3674f3513d78748da384cbbab01549f/blog.tsx",
     "https://deno.land/x/gfm@0.2.5/mod.ts": "jsr:@deno/gfm@^0.10.0",
   },
   "deploy": {
