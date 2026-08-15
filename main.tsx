@@ -1,14 +1,14 @@
 /** @jsx h */
 
-import blog, { ga, redirects, h } from "blog";
+import blog, { ga, redirects, h } from "@hmalinchock/blog";
 
 blog({
   title: "Holden Malinchock's Blog",
   description: "Thoughts and opinions are my own.",
   // header: <header>Your custom header</header>,
-  // section: <section>Your custom section</section>,
+  // section: (post) => <section>Your custom section with access to Post props.</section>,
   // footer: <footer>Your custom footer</footer>,
-  avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
+  avatar: "https://deno-avatar.hmalinch.deno.net/avatar/blog.svg",
   avatarClass: "rounded-full",
   author: "Holden Malinchock",
   links: [
@@ -18,14 +18,14 @@ blog({
 
   // middlewares: [
 
-  //   // If you want to set up Google Analytics, paste your GA key here.
-  //   ga("UA-XXXXXXXX-X"),
+    // If you want to set up Google Analytics 4, paste your Measurement ID here.
+    // ga("G-XXXXXXXXXX"),
 
-  //   // If you want to provide some redirections, you can specify them here,
-  //   // pathname specified in a key will redirect to pathname in the value.
-  //   redirects({
-  //    "/hello_world.html": "/hello_world",
-  //   }),
+    // If you want to provide some redirections, you can specify them here,
+    // pathname specified in a key will redirect to pathname in the value.
+    // redirects({
+    //  "/hello_world.html": "/hello_world",
+    // }),
 
   // ]
 });
